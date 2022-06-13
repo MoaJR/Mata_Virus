@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>JavaScript</title>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body onresize="resize()">
+    
+    <div class="container"></div>
+    <div class="gameover">
+      <img src="img/gameover.png" alt="">
+      <button onclick="document.location.reload(true);">Reiniciar</button>
+    </div>
+    <div class="vitoria">
+      <img src="img/win.png" alt="">
+      <button onclick="document.location.reload(true);">Reiniciar</button>
+    </div>
+    <div class="display">
+      <div class="vidas">
+        <span><img id="v1" src="img/heart.png" alt=""></span>
+        <span><img id="v2" src="img/heart.png" alt=""></span>
+        <span><img id="v3" src="img/heart.png" alt=""></span>
+        <span><img id="v4" src="img/heart.png" alt=""></span>
+        <span><img id="v5" src="img/heart.png" alt=""></span>
+      </div>
+      <div class="tempo">
+        Tempo Restante:
+      </div>
+    </div>
+
+  </body>
+
+  <!-- MDB JavaScript -->
+  <script src="js/script.js"></script>
+</html>

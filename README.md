@@ -1,2 +1,2 @@
-# Mata_Virus
- Jogo feito no javascript no qual deve-se matar os vírus da tela
+# Mata_Vírus
+ Joguinho feito no javascript onde deve-se aplicar vacina nos vírus para poder matá-los
